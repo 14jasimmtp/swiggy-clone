@@ -1,0 +1,368 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+}
+.container{
+    display: flex;
+    width: 100%;
+    height: 444px;
+}
+.Swiggy{
+    width: 55%;
+    height: 444px;
+}
+.image{
+    width: 45%;
+    height: 444px;
+}
+.features{
+    margin-top: 6.4%;
+    display: flex;
+    background-color: #2b1e16;
+    height: 402px;
+}
+.logo{
+    width: 23%;
+    margin-left: 20%;
+    margin-top: 7%;
+}
+
+.login{
+    width: 41px;
+    margin-left: 599px;
+    margin-top: 0px;
+    background-color: transparent;
+    border: none;
+    color: black;
+    transition: all 0.4 linear;
+    font-weight: 700;
+    font-size: initial;
+    cursor: pointer;
+}
+.login:hover{
+    color: #fc8019;
+}
+.sign{
+    cursor: pointer;
+    width: 112px;
+    height: 40px;
+    margin-left: 20px;
+    background-color: black;
+    border: black;
+    color: #fff;
+    font-weight: bolder;
+    font-size: inherit
+    
+
+}
+    
+
+.location{
+    border: 1px solid #fc8019;
+    display: flex;
+    margin-top: 37px;
+    width: 600px;
+    
+    
+}
+.locationinput{
+    width: 413px;
+    font-weight: 500;
+    height: 58px;
+    font-size: 18px;
+    border:none;
+    
+    
+}
+.butn{
+    margin-top: 11px;
+    margin-left: 6px;
+}
+.locatebtn{
+    border: none;
+    background-color: transparent;
+    margin-left: -73px;
+    margin-top: 9px;
+    height: 38px;
+    color: #535665;
+    width: 103px;
+    font-weight: 500;
+    font-size: 14px;
+    cursor: pointer;
+    letter-spacing: -.35px;
+    display: inline-flex;
+    transition: all 0.4 linear;
+}
+.locatebtn:hover{
+    background-color: #e9e9eb;
+}
+.crosshair{
+    width: 17px;
+    height: 16px;
+    vertical-align: middle;
+}
+.Foodbutton{
+    border: none;
+    cursor: pointer;
+    background-color: #fc8019;
+    color: #fff;
+    font-weight: bolder;
+    width: 144px;
+    margin-left: 36px;
+    
+}
+.citiesdark{
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: 600;
+    color: #686b78;
+    line-height: 1.5;
+    letter-spacing: -.3px;
+}
+.citieslight{
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: 600;
+    color : #93959f;
+    line-height: 1.5;
+    letter-spacing: -.3px;
+}
+.txtspace{
+    width: 545px;
+    margin-left: 164px;
+    margin-top: -14px;
+    font-weight: bolder;
+}
+span{
+    display: block;
+    height: 57px;
+    font-size: 40px;
+    margin-bottom: 0;
+    font-weight: 600;
+    letter-spacing: -.45px;
+    color: #282c3f;
+    animation: spin_words 22s infinite;
+    
+}
+.heading{
+    height: 59px;
+    margin-top: 72px;
+    overflow: hidden;
+
+}
+@keyframes spin_words{
+    8%{
+        transform: translateY(-100%);
+    }
+    16%{
+        transform: translateY(-100%);
+    }
+    24%{
+        transform: translateY(-200%);
+    }
+    32%{
+        transform: translateY(-200%);
+    }
+    40%{
+        transform: translateY(-300%);
+    }
+    48%{
+        transform: translateY(-300%);
+    }
+    56%{
+        transform: translateY(-400%);
+    }
+    64%{
+        transform: translateY(-400%);
+    }
+    72%{
+        transform: translateY(-500%);
+    }
+    80%{
+        transform: translateY(-500%);
+
+    }
+    88%{
+        transform: translateY(-600%);
+    }
+    100%{
+        transform: translateY(-600%);
+    }
+}
+.para{
+    font-size: 24px;
+    font-weight: 300;
+    width: 600px;
+    margin-top: -7px;
+    margin-bottom: 0;
+    line-height: 40px;
+    letter-spacing: -.3px;
+    color: #686b78;
+}
+.txtspace p{
+    font-weight: 400;
+    font-size: 15px;
+    color: #a9abb2;
+    margin: 30px 0 10px;
+    letter-spacing: -.2px;
+    text-transform: uppercase;
+}
+.buttons{
+    margin-top: -50px;
+    height: 56px;
+}
+.featureptn{
+    margin-left: 109px;
+    margin-top: 3px;
+    color: #fff;
+    text-align: center;
+    justify-content: space-between;
+    width: 311px;
+    margin-right: 109px;
+}
+    
+.featureptn p{
+    color: #e0cbc1;
+    font-size: 15px;
+}
+.download{
+    display: flex;
+    width: 100%;
+    height: 567px;
+
+}
+.downloadtext{
+    width: 45%;
+}
+.downloadtext h1{
+    margin-left: 159px;
+    margin-top: 156px;
+    font-size: 37px;
+    font-weight: 600;
+    width: 288px;
+    line-height: 1;
+    letter-spacing: -.45px;
+    color: #282c3f;
+}
+.downloadtext p{
+    margin-left: 159px;
+    margin-top: 2px;
+    font-size: 20px;
+    width: 400px;
+    font-weight: 300;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    color: #7e808c;
+    line-height: 1.2;
+}
+.store{
+display: flex;
+margin: 20px;
+margin-top: -2px;
+
+}
+.playstore{
+    width: 180px;
+    margin-left: 140px;
+}
+.applestore{
+    width: 180px;
+    padding-left: 20px;
+}
+.phoneimg{
+    width: 55%;
+}
+.phone-1{
+    margin-left: 115px;
+}
+.phone-2{
+    margin-top: 78px;
+    margin-right: 76px;
+}
+.footer{
+    display: flex;
+    width: 100%;
+    background-color: black;
+    height: 544px;
+    color: #fff;
+}
+
+
+.list a{
+    text-decoration: none;
+    color: inherit;
+    font-weight: 300;
+}
+.list{
+    
+    margin: 17px;
+}
+li{
+    list-style: none;
+}
+.companyhead{
+    margin-left: 160px;
+    margin-top: 75px;
+    color: gray;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.contacthead{
+    margin-left: 22px;
+    margin-top: 75px;
+    color: gray;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+
+}
+.legalhead{
+    margin-left: 126px;
+    margin-top: 75px;
+    color: gray;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.listlabel1{
+    margin-top: 34px;
+    margin-left: 144px;
+}
+.listlabel2{
+    margin-left: 8px;
+    margin-top: 34px;
+}
+.listlabel3{
+    margin-left: 111px;
+    margin-top: 34px;
+}
+.store-footer{
+    padding-top: 75PX;
+    padding-left: 47PX;
+}
+.appstorefooter{
+    padding: 0 20px;
+}
+.playstorefooter{
+    padding: 30px 20px;
+}
+.contact{
+    padding-left: 10px;
+    width: 260px;
+}
+.company{
+    width: 585px;
+
+}
+.legal{
+width: 682px;
+}
+.blankspace{
+    height: 10px;
+}
